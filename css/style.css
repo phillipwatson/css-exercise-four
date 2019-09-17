@@ -1,4 +1,38 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #dadada;
-  font-size: 10px;
+  font-size: 100%
+}
+
+h1{
+  font-size: 2em
+}
+
+img {
+  margin: auto;
+  width: 100%;
+}
+
+.top-left {
+  position: relative;
+  top: 50px;
+  left: 50px;
+  font-size: 18px
+}
+
+@media screen and (min-width: 575px)  {
+  div{
+    margin: 1%
+    width: 48%
+  }
+
+  @media screen and (min-width: 991px)  {
+    div{
+      margin: 1%
+      width: 48%
+    }
+
 }
