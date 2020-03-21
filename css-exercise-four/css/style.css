@@ -1,0 +1,151 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 2em
+}
+
+.container {
+  background-color: lightgrey;
+}
+
+.imgcontainer {
+  text-align: center;
+}
+
+.img1 {
+  background-image: url(../images/baku.jpg);
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width:100%;
+  height:200px;
+}
+
+.img2 {
+  background-image: url(../images/london.png);
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width:100%;
+  height:200px;
+}
+
+.img3 {
+  background-image: url(../images/madrid.jpg);
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width:100%;
+  height:200px;
+}
+
+.img4 {
+  background-image: url(../images/rome.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width:100%;
+  height:200px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media screen and (max-width: 600px) {
+  .preview {
+    margin: 3%;
+    width: 95%;
+    display: inline-block;
+  }
+
+  .img1, .img2, .img3, .img4 {
+    width: 100%;
+    height: 300px;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+
+  .title {
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 20px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media screen and (min-width: 600px) {
+  .preview {
+    margin: 1%;
+    width: 45%;
+    display: inline-block;
+  }
+
+  .img1, .img2, .img3, .img4 {
+    width: 100%;
+    height: 200px;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+
+  .title {
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 20px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media screen and (min-width: 750px) {
+  .preview {
+    margin: 2%;
+    width: 20%;
+    display: inline-block;
+  }
+
+  .img1, .img2, .img3, .img4 {
+    width: 120%;
+    height: 150px;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+
+  h1 {
+    font-size: 1.5em
+  }
+
+  .title {
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 20px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media screen and (min-width: 1200px) {
+  .preview {
+    margin: 1%;
+    width: 20%;
+    display: inline-block;
+  }
+
+  .img1, .img2, .img3, .img4 {
+    width: 110%;
+    height: 300px;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+
+  h1 {
+    font-size: 2.5em
+  }
+
+  .title {
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 20px;
+  }
+}
